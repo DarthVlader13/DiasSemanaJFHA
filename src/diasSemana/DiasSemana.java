@@ -1,6 +1,16 @@
+//Añadimos al autor
+
+/**
+ * @author José Francisco Hernández Allen
+ */
 package diasSemana;
 
 import java.util.Scanner;
+
+//Añadimos la version
+/**
+ * @version 1.0
+ */
 
 //Inicio del programa y declaración de variables:
 
@@ -27,9 +37,16 @@ public class DiasSemana {
 		}
 	}
 
+	/**
+	 * 
+	 * @param numeroDia
+	 * @return Nos devolverá en función del número, un día
+	 */
+//mediante el método decisionDia según el nº introducido se seleccionará un caso u otro.
 	public static String decisionDia(int numeroDia) {
 		String diaSemana;
 		switch (numeroDia) {
+		// si el numeroDia es 1, será lunes, 2, martes, 3, miercoles...
 		case 1:
 			diaSemana = "El día seleccionado es LUNES";
 			break;
